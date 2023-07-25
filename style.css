@@ -1,0 +1,10 @@
+@import url(assets/css/header.css);
+
+
+:roort {
+    --cor-de-fundo: #EBECEE;
+    --cor-de-fundo-header: #FFFFFF;
+}
+body {
+    background-color: var(--cor-de-fundo);
+}
