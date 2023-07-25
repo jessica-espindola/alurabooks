@@ -5,17 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="style.css">
     <title>AluraBooks</title>
 </head>
 <body>
     <header class="cabecalho">
-        <span class="cabecalho__menu-hamburguer"></span>
-        <img src="assets/img/Logo.svg" alt="Logo do AluraBooks">
-        <a href="#"><img src="assets/img/Favoritos.svg" alt="Ícone de Favoritos"></a>
-        <a href="#"><img src="assets/img/Compras.svg" alt="Ícone de Compras"></a>
-        <a href="#"><img src="assets/img/Usuário.svg" alt="ícone do Usuário"></a>
-
+        <div class="cabecalho__esquerdo">
+            <span class="material-symbols-outlined menu-hamburguer">menu</span>
+            <img src="assets/img/Logo.svg" alt="Logo do AluraBooks">
+        </div>
+        <div class="cabecalho__direito">
+            <a href="#"><img src="assets/img/Favoritos.svg" alt="Ícone de Favoritos"></a>
+            <a href="#"><img src="assets/img/Compras.svg" alt="Ícone de Compras"></a>
+            <a href="#"><img src="assets/img/Usuário.svg" alt="ícone do Usuário"></a>
+        </div>
     </header>
+    <main>
+        <section class="banner">
+            <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+            <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
+            <div class="busca__leitura-campo">
+                <span class="material-symbols-outlined">search</span>
+                <input type="search" placeholder="Qual será a sua próxima leitura?" class="busca__leitura-campo-input">
+            </div>
+
+        </section>
+    </main>
 </body>
 </html>
