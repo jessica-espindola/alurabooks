@@ -1,6 +1,6 @@
 @import url(assets/css/header.css);
 @import url(assets/css/banner.css);
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
 
 :root {
@@ -8,7 +8,7 @@
     --branco: #FFFFFF;
     --laranja: #EB9B00;
     --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
-    --fonte-principal: 'Poppins, sans-serif';
+    --fonte-principal: 'Poppins';
 }
 body {
     background-color: var(--cinza);
