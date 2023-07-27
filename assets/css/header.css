@@ -7,16 +7,21 @@
 
 .cabecalho__esquerdo {
     display: flex;
-    gap: 24px;
-    margin: 16px 0px 16px 24px;
     align-items: center;
 }
-
+.cabecalho__esquerdo__botao-menu {
+    background: var(--branco);
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .menu-hamburguer {
     width: 48px;
     height: 48px;
     font-size: 48px;
-     
+    color: var(--azul);
  }
 
 .cabecalho__direito {
@@ -25,4 +30,10 @@
     margin-right: 24px;
     align-items: center;
 
+}
+
+.active {
+    background: var(--azul-degrade);
+    color: var(--branco);
+    visibility: visible;
 }

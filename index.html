@@ -13,7 +13,9 @@
 <body>
     <header class="cabecalho">
         <div class="cabecalho__esquerdo">
-            <span class="material-symbols-outlined menu-hamburguer">menu</span>
+            <div class="cabecalho__esquerdo__botao-menu">
+                <span class="material-symbols-outlined menu-hamburguer">menu</span>
+            </div>
             <img src="assets/img/Logo.svg" alt="Logo do AluraBooks">
         </div>
         <div class="cabecalho__direito">
@@ -23,6 +25,14 @@
         </div>
     </header>
     <main>
+        <section class="menu__hamburguer">
+            <h2 class="menu__hamburguer-titulo">Categorias</h2>
+            <p class="menu__hamburguer-texto">Programação</p>
+            <p class="menu__hamburguer-texto">Front-End</p>
+            <p class="menu__hamburguer-texto">Infraestrutura</p>
+            <p class="menu__hamburguer-texto">Business</p>
+            <p class="menu__hamburguer-texto">Design & UX</p>
+        </section>
         <section class="banner">
             <h2 class="banner__titulo">Já sabe por onde começar?</h2>
             <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
@@ -141,5 +151,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="assets/js/carrossel.js"></script>
+    <script src="assets/js/menu-hamburguer.js"></script>
 </body>
 </html>
