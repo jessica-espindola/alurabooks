@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="style.css">
     <title>AluraBooks</title>
 </head>
@@ -29,8 +30,46 @@
         </section>
         <section class="carrossel">
             <h2 class="carrossel__titulo">Últimos lançamentos</h2>
+            <div class="swiper">
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="assets/img/ApacheKafka.png" alt="Livro sobre Apache Kafka e Spring boot"></div>
+                <div class="swiper-slide"><img src="assets/img/Javascript.png" alt="Livro sobre Javascript"></div>
+                <div class="swiper-slide"><img src="assets/img/Liderança.png" alt="Livro sobre liderança em design"></div>
+                <div class="swiper-slide"><img src="assets/img/Guia Front-end.png" alt="Livro: Guia sobre Front-End"></div>
+            
+                ...
+                </div>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <div class="card">
+                <div class="card__esquerdo">
+                    <h3 class="card__titulo">Talvez você também se interesse por...</h3>
+                    <h2 class="card__subtitulo">Angular 11 e Firebase</h2>
+                    <p class="card__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                    <div class="card__icones">
+                        <a href="#"><img src="assets/img/Favoritos.svg" alt="Ícone de Favoritos"></a>
+                        <a href="#"><img src="assets/img/Compras.svg" alt="Ícone de Compras"></a>
+                    </div>
+                </div>
+                <div class="card__direito">
+                    <img src="assets/img/Angular.png" alt="Angular" class="card__imagem">
+                    <button class="card__botao">Saiba Mais</button>
+                </div>
+                
+
+            </div>
 
         </section>
     </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="assets/js/carrossel.js"></script>
 </body>
 </html>

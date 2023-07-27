@@ -1,0 +1,87 @@
+
+.carrossel__titulo {
+    color: var(--laranja);
+    text-transform: uppercase;
+    background-color: var(--branco);
+    font-size: 18x;
+    font-weight: 700;
+    padding: 1em 0 0.5em 0;
+    text-align: center;
+
+}
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+    padding: 1em 0;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    background-color: var(--branco);
+    width: 380px;
+    height: 295px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+}
+
+.card__esquerdo {
+    width: 169px;
+    height: 254px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 16px 0px 25px 16px;
+}
+
+.card__titulo {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--laranja);
+    width: 179px;
+}
+
+.card__subtitulo {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--azul);
+    width: 143px;
+}
+
+.card__texto {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000D9;
+}
+
+.card__direito {
+    padding: 21px 16px 23px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.card__botao {
+    padding: 12px 16px;
+    background-color: var(--laranja);
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    border:none;
+    width: 161px;
+
+}
